@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<actions xmlns="urn:shemas-jetbrains-com:actions-xml">
+  <action id="matt" text="Find Usages of Symbol…">
+    <!--<vs-shortcut>Control+Alt+Shift+F7</vs-shortcut>-->
+    <shortcut>Control+Alt+Shift+F7</shortcut>
+  </action>
+
+  <insert group-id="ReSharper.Find" position="last">
+    <action-ref id="matt" />
+  </insert>
+</actions>
